@@ -7,6 +7,7 @@ describe "my_collect" do
       my_collect(empty_array) do |x|
         counter += 1
       end
+    end
     expect(counter).to eq(0)
   end
   it "yields the correct element from a given collection, in this case languages" do
